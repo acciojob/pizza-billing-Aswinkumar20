@@ -5,7 +5,15 @@ public class DeluxePizza extends Pizza {
     public DeluxePizza(Boolean isVeg) {
         super(isVeg);
         // your code goes here
-        cheeseCount =1;
-        toppingsCount=1;
+        super.addExtraCheese();
+        super.addExtraToppings();
+    }
+
+    public void addExtraCheese(){
+
+    }
+
+    public void addExtraToppings(){
+
     }
 }
